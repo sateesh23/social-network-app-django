@@ -1,3 +1,6 @@
+# Friend Models - Updated November 2025
+# Database models for friend requests and relationships
+
 from django.db import models
 from django.db.models.fields.related import ForeignKey
 from django.utils import timezone

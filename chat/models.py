@@ -1,3 +1,6 @@
+# Chat Models - Updated November 2025
+# Database models for real-time messaging and chat rooms
+
 from django.db import models
 from django.contrib.auth.models import User
 import uuid

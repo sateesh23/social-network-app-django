@@ -1,3 +1,6 @@
+# Blog Forms - Updated November 2025
+# Forms for creating and updating posts and comments
+
 from django import forms
 from django.forms import fields, widgets
 from .models import Post, Comment

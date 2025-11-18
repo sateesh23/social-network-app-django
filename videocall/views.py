@@ -1,3 +1,6 @@
+# Videocall Views - Updated November 2025
+# Views for video call room management and Agora integration
+
 import os
 from django.shortcuts import redirect, render
 from django.http import JsonResponse

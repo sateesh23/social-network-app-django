@@ -1,3 +1,6 @@
+# Videocall Models - Updated November 2025
+# Database models for video call room management
+
 from django.db import models
 
 # Create your models here.

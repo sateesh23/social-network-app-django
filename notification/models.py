@@ -1,3 +1,6 @@
+# Notification Models - Updated November 2025
+# Database models for in-app notifications system
+
 from django.db import models
 from django.contrib.auth.models import User
 

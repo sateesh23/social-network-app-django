@@ -1,3 +1,6 @@
+# Users Signals - Updated November 2025
+# Django signals for automatic profile and friend list creation
+
 from django.db.models.signals import post_save
 from django.contrib.auth.models import User
 from django.dispatch import receiver

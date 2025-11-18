@@ -1,3 +1,6 @@
+# Chat Routing - Updated November 2025
+# WebSocket URL routing for real-time chat connections
+
 from django.urls import re_path
 
 from . import consumers

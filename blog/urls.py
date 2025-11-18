@@ -1,3 +1,6 @@
+# Blog URLs - Updated November 2025
+# URL routes for posts, comments, likes, saves functionality
+
 from django.urls import path
 from . import views
 from .views import AllSaveView, PostListView, PostDetailView, PostCreateView, PostUpdateView, PostDeleteView, SaveView, UserPostListView, LikeView,LikeCommentView, posts_of_following_profiles,  AllLikeView

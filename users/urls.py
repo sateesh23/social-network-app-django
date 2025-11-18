@@ -1,3 +1,6 @@
+# Users URLs - Updated November 2025
+# URL routes for user profiles and account management
+
 from django.urls import path
 from . import views
 

@@ -1,3 +1,6 @@
+# Notification Views - Updated November 2025
+# Views for displaying and managing user notifications
+
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
 from django.http import HttpResponse

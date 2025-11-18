@@ -1,3 +1,6 @@
+# Users Forms - Updated November 2025
+# Forms for registration, profile update, and image cropping
+
 from django import forms
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm

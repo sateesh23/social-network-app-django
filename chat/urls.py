@@ -1,3 +1,6 @@
+# Chat URLs - Updated November 2025
+# URL routes for real-time chat functionality
+
 from django.urls import path
 from . import views
 

@@ -1,8 +1,4 @@
-from notification.models import Notification
-from django.core.checks import messages
-from django.shortcuts import render, get_object_or_404, redirect
-from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
-from django.contrib.auth.models import User
+\"\"\"\nBlog App Views - Updated November 2025\nHandles Post CRUD, Comments, Likes, Saves, and related operations\n\"\"\"\n\nfrom notification.models import Notification\nfrom django.core.checks import messages\nfrom django.shortcuts import render, get_object_or_404, redirect\nfrom django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin\nfrom django.contrib.auth.models import User
 from django.urls import reverse_lazy, reverse
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from .models import Comment, Post

@@ -7,8 +7,10 @@ For more information on this file, see
 https://docs.djangoproject.com/en/3.1/howto/deployment/asgi/
 """
 
-import os
+# ASGI Configuration - Updated November 2025
+# ASGI entry point for production deployment with Channels support
 
+import os
 from django.core.asgi import get_asgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')

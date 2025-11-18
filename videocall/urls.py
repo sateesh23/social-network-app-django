@@ -1,3 +1,6 @@
+# Video Call URLs - Updated November 2025
+# URL routes for video call functionality with Agora SDK
+
 from django.urls import path
 from . import views
 

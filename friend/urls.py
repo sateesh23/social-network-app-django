@@ -1,3 +1,6 @@
+# Friend URLs - Updated November 2025
+# URL routes for friend request and relationship management
+
 from django.urls import path
 from django.urls.resolvers import URLPattern
 from friend.views import cancel_friend_request, decline_friend_request, friend_requests, friends_list_view, remove_friend, send_friend_request, accept_friend_request
